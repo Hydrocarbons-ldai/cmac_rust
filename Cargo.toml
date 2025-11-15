@@ -2,5 +2,17 @@
 name = "cmac_rust"
 version = "0.1.0"
 edition = "2024"
+description = "CMAC (Cerebellar Model Articulation Controller) utilities for imputing missing floating-point values"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Hydrocarbons-ldai/cmac_rust"
+homepage = "https://github.com/Hydrocarbons-ldai/cmac_rust"
+documentation = "https://docs.rs/cmac_rust"
+readme = "README.md"
+keywords = ["cmac", "machine-learning", "imputation", "nan", "time-series"]
+categories = ["algorithms", "science::statistics"]
+rust-version = "1.85"
+
+[package.metadata.docs.rs]
+all-features = true
 
 [dependencies]
