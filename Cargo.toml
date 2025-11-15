@@ -9,7 +9,7 @@ homepage = "https://github.com/Hydrocarbons-ldai/cmac_rust"
 documentation = "https://docs.rs/cmac_rust"
 readme = "README.md"
 keywords = ["cmac", "machine-learning", "imputation", "nan", "time-series"]
-categories = ["algorithms", "science::statistics"]
+categories = ["algorithms", "science"]
 rust-version = "1.85"
 
 [package.metadata.docs.rs]
