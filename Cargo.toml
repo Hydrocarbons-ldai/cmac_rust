@@ -1,6 +1,6 @@
 [package]
 name = "cmac_rust"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "CMAC (Cerebellar Model Articulation Controller) utilities for imputing missing floating-point values"
 license = "MIT OR Apache-2.0"

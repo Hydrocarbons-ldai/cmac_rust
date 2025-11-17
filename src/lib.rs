@@ -18,13 +18,16 @@
 
 pub mod cmac;
 
-pub use cmac::Cmac;
+// Re-export explicitly from the module to avoid ambiguity between the
+// `cmac` module and the `Cmac` type when the crate is used from other
+// contexts (this mirrors `crate::cmac::Cmac`).
+pub use crate::cmac::Cmac;
 
 #[allow(clippy::upper_case_acronyms)]
 /// Backwards-compatible alias that preserves the original type name.
-pub type CMAC = Cmac;
+pub type CMAC = crate::cmac::Cmac;
 
 /// Prelude containing the primary types exported by this crate.
 pub mod prelude {
-    pub use crate::Cmac;
+    pub use crate::cmac::Cmac;
 }

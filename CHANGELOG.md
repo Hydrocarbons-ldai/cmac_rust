@@ -8,3 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - 2025-11-15
 
 - Initial public release featuring the `Cmac` imputer, doctests, unit tests, and example binary.
+
+## [0.1.1] - 2025-11-17
+
+### Fixed
+
+- Made all crate re-exports explicit so downstream users can reliably import `cmac_rust::Cmac` and the prelude without unresolved import errors.
